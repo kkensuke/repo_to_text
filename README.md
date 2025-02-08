@@ -73,7 +73,7 @@ The output file is structured as follows:
    ```
 
 2. File Contents
-   ```markdown
+   ````markdown
    # File Contents
    
    ===================
@@ -86,6 +86,7 @@ The output file is structured as follows:
    ```{language}
    file contents
    ```
+   ````
 
 ## Supported Languages
 
