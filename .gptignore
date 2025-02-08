@@ -1,0 +1,375 @@
+.gptignore
+output.txt
+
+# Build and Compilation Output
+__pycache__/
+*.pyc
+build/
+dist/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+*.bin
+*bin/
+
+# Package Management
+node_modules/
+package-lock.json
+yarn.lock
+poetry.lock
+Pipfile.lock
+*.whl
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+venv/
+env/
+.virtualenv/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+.eclipse/
+.settings/
+*.sublime-*
+*.swp
+*.swo
+.project
+.classpath
+*.iml
+.vs/
+
+# Documentation
+_build/
+*site/
+
+# Binary and Media Files
+*.png
+*.svg
+*.ico
+*.jpeg
+*.jpg
+*.gif
+*.bmp
+*.tiff
+*.psd
+*.ai
+*.eps
+*.pdf
+*.mov
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.ttf
+*.woff
+*.woff2
+*.eot
+
+# Cache and Temporary Files
+logs/
+*.log*
+*.[Bb]ak
+*.backup
+*~
+._*
+*.cache
+*tmp
+*temp
+.sass-cache/
+.DS_Store
+*alias
+Thumbs.db
+.Spotlight-V100
+.Trashes
+*.old
+*.orig
+nohup.out
+.nfs*
+
+# Version Control
+.git/
+.gitignore
+.svn/
+.hg/
+.github/
+.gitlab/
+.gitattributes
+.gitmodules
+
+# Language-Specific
+# Python
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+
+# JavaScript/TypeScript
+.next/
+.nuxt/
+.vercel/
+.angular/
+*.min.js
+*.min.css
+.eslintcache
+.parcel-cache/
+
+# Configuration and Environment
+*.env*
+config.local.*
+*.config.js
+*.conf
+*.cfg
+*.ini
+
+# zsh
+.zsh_sessions/
+.zcompcache/
+.zcompdump
+.zsh_history
+
+# Next.js Specific
+.next/
+*next-env.d.ts
+public/sw.js*
+public/workbox-*.js*
+public/worker-*.is*
+public/precache.*.*.js
+public/fallback-*.js
+public/service-worker.js
+public/sw.js
+
+.turbo
+.swc/
+
+# Build Output and Optimization
+.webpack/
+.cache/
+.parcel-cache
+.rollup.cache/
+.vite/
+storybook-static/
+.storybook/static/
+*.chunk.js
+*.chunk.css
+*-bundle.js
+*-bundle.css
+*.hot-update.js
+*.hot-update.json
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+*.d.ts.map
+.dts/
+
+# React/Next.js Development
+*.development.js
+*.production.js
+.stylelintcache
+*.module.css.d.ts
+*.generated.*
+
+# Package Managers
+.pnp.*
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnpm-store/
+.npm/
+bun.lockb
+
+# Development Tools
+.devcontainer/
+.husky/
+.linaria-cache/
+.nx/
+.wireit/
+.run/
+.history/
+
+# Testing and Analysis
+*coverage*
+.nyc_output/
+cypress/downloads/
+cypress/fixtures/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+*.lcov
+.scannerwork/
+.lighthouse/
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+junit.xml
+
+# Analytics and Monitoring
+.sentry/
+.datadog/
+newrelic.*
+
+# CDN and Asset Processing
+.imagehashes
+.asset-cache/
+.size-snapshot.json
+stats.json
+bundle-stats.json
+.bundle-stats/
+
+# Generated Documentation
+.docgen/
+api-extractor.json
+.api-extractor.json
+.typedoc/
+docs/.vitepress/cache/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+prisma/migrations/
+.prisma/
+
+# Optimization and Minification
+*.min.*
+*-min.*
+*.opt.*
+*.optimized.*
+*.compressed.*
+
+# Framework Specific
+# Remix
+app/styles/*.css.map
+
+# Gatsby
+public/page-data/
+public/static/
+
+# Mobile Development
+*.apk
+*.aab
+*.ipa
+*.app
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Container and Infrastructure
+.docker/
+docker-compose.override.yml
+*.tfstate
+*.tfstate.*
+.terraform/
+.vagrant/
+
+# Editor Extensions
+.metals/
+.bloop/
+.scala-build/
+.ensime
+.ensime_cache/
+.worksheet/
+
+# Security and Authentication
+*.pem
+*.cert
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+*.pub
+
+# Internationalization
+*.pot
+*.mo
+*.po
+.translations-cache/
+
+# Font Source Files
+*.ttf.json
+*.woff.json
+*.woff2.json
+*.eot.json
+*.otf
+
+# State Management
+.redux-saga/
+.zustand/
+.recoil/
+
+# Performance Profiling
+*.heapsnapshot
+*.heaptimeline
+*.cpuprofile
+.clinic/
+.prof/
+
+# Debug
+*debug.*
+debug/
+.debug/
+
+# Tooling Configuration
+.browserslistrc
+.nvmrc
+.tool-versions
+.node-version
+.ruby-version
+.python-version
+.java-version
+.terraform-version
+
+# Generated Styles
+*.css.d.ts
+*.scss.d.ts
+*.sass.d.ts
+*.less.d.ts
+*.styl.d.ts
+
+# Large Data Files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.numbers
+*.parquet
+*.avro
+
+# Local Development
+local/
+.local/
+dev/
+.dev/
+
+# Project-specific
+archive/
+memo.md
+TODO.md
+CHANGELOG.md
+!README.md
+password
