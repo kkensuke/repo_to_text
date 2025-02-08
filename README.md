@@ -79,11 +79,11 @@ The output file is structured as follows:
    ===================
    {
     "path": "relative/path/to/file",
-    "size": "123.4 KB",
+    "size": "12.3 KB",
     "language": "Python"
    }
    -------------------
-   ```{language}
+   ```python
    file contents
    ```
    ````
