@@ -63,7 +63,7 @@ def detect_language(file_path: str) -> str:
     # Normalize the path before splitting
     normalized_path = unicodedata.normalize('NFC', file_path.lower())
     _, ext = os.path.splitext(normalized_path)
-    return extension_map.get(ext, 'Plain Text')
+    return extension_map.get(ext, 'Text')
 
 def get_ignore_list(ignore_file_path: str) -> List[str]:
     """Read and return the list of patterns to ignore from .gptignore file."""
@@ -322,11 +322,9 @@ def process_repository_files(repo_path: str, ignore_list: List[str], output_file
                         with open(file_path, 'r', encoding=locale.getpreferredencoding()) as f:
                             contents = f.read()
                             
-                    if metadata.language != 'Plain Text':
-                        output_file.write(f"```{metadata.language.lower()}\n")
+                    output_file.write(f"```{metadata.language.lower()}\n")
                     output_file.write(contents)
-                    if metadata.language != 'Plain Text':
-                        output_file.write("\n```")
+                    output_file.write("\n```")
                     output_file.write("\n\n")
                 except Exception as e:
                     print(f"Warning: Error processing {file_path}: {str(e)}")
