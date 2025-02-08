@@ -86,7 +86,6 @@ The output file is structured as follows:
    ```{language}
    file contents
    ```
-   ```
 
 ## Supported Languages
 
