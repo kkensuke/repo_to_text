@@ -12,8 +12,8 @@ A Python tool that converts Git repository contents into a text format optimized
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/repository-content-converter.git
-cd repository-content-converter
+git clone https://github.com/kkensuke/repo_to_text.git
+cd repo_to_text
 ```
 
 This tool uses only Python standard library modules, so no additional package installation is required.
