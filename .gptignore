@@ -126,7 +126,7 @@ nohup.out
 .parcel-cache/
 
 # Configuration and Environment
-*.env*
+# *.env*
 config.local.*
 *.config.js
 *.conf
@@ -368,8 +368,7 @@ dev/
 
 # Project-specific
 archive/
-memo.md
-TODO.md
-CHANGELOG.md
+*.md
 !README.md
 password
+!.env.local
